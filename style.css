@@ -70,7 +70,7 @@ h2, p {
     width: 400px;
     height: 300px;
     border: 2px solid rgb(73, 73, 73);
-    margin-left: 30px;
+    margin-left: 10%;
 }
 
 .single-project{
@@ -90,4 +90,63 @@ a {
     color: rgb(9, 230, 230);
     text-align: none;
     margin-top: 10px;
+}
+
+
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1100px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 100px;
+        margin: auto;
+    }
+
+    header{
+        padding: 50px;
+    }
+    .projects {
+        padding: 40px;
+    }
+}
+
+/* Small tablets to big tablet: from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    .container{
+        width: 800px;
+    }
+    header {
+        flex-direction: column;
+        height: 650px;
+    }
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(73, 73, 73);
+        border-radius: 100%;
+        margin: auto;
+    }
+
+    .projects1, .projects2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center
+    }
+}
+
+/* Small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 600px;
+    }
+}
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .container{
+        width: 350px;
+    }
 }
