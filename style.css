@@ -116,18 +116,16 @@ a {
 /* Small tablets to big tablet: from 768 to 1023px*/
 @media only screen and (max-width: 1023px) {
     .container{
-        width: 800px;
+        width: 600px;
     }
     header {
         flex-direction: column;
-        height: 650px;
+        height: 700px;
     }
     .profile-pic {
         width: 200px;
         height: 200px;
-        border: 2px solid rgb(73, 73, 73);
-        border-radius: 100%;
-        margin: auto;
+        margin-bottom: 15px;;
     }
 
     .projects1, .projects2 {
@@ -144,7 +142,7 @@ a {
     }
 
     header {
-        height: 1100px;
+        height: 950px;
         padding: 20px;
     }
 
