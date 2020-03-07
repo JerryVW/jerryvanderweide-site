@@ -138,21 +138,21 @@ a {
 /* Small phones to small tablets: from 481 to 767px*/
 @media only screen and (max-width: 767px) {
     .container{
-        width: 380px;
+        width: 350px;
     }
 
     header {
         height: 950px;
-        padding: 20px;
+        padding: 15px;
     }
 
     .single-project {
-        width: 360px;
+        width: 340px;
     }
 
     .example-pic {
-        width: 250px;
-        height: 200px;
+        width: 225px;
+        height: 175px;
         margin-left: 15%;
     }
 }
