@@ -10,7 +10,15 @@
 </head>
 <body>
     <div class="container">
-        <span><img class="logo-image" src="img/JVW-Logo.jpg" alt="JVW-Logo"></span>
+        <div class="logo-header">
+            <span><img class="logo-image" src="img/JVW-Logo.jpg" alt="JVW-Logo"></span>
+            <div class="contact-section">
+                <h4>Contact me via phone or email</h4>
+                <h4>Phone#: (616)-308-2607</h4>
+                <h4>Email: jerryvanderweide@yahoo.com</h4>
+            </div>
+        </div>
+        
         <header class="info">
             <img class="profile-pic" src="img/profile-pic.jpg" alt="Profile Picture">
             <section class="description">
@@ -19,7 +27,7 @@
                     But things changed and I drifted away from all that.
                 </p>
                 <p>Up until a few years ago, that is.....</p>
-                <p>I then went back to school and discovered web development. I instatnly fell in love with the creativity it allowed me to
+                <p>I then went back to school and discovered web development. I instantly fell in love with the creativity it allowed me to
                     have and that I can create anything if I put my mind to it.
                 </p>
                 <p>So now I have my new style of LEGOS and drawing paper and have been building and creating websites ever since. It is
@@ -33,36 +41,49 @@
             <div class="projects1">
                 <div class="single-project">
                     <span>TODO List App</span>
-                    <img class="example-pic" src="img/ToDo_List_Screenshot.png" alt="Profile Picture">
+                    <a href="https://jerryvw.github.io/todo-list/" target="_blank"><img class="example-pic" src="img/ToDo_List_Screenshot.png" alt="Profile Picture"></a>
                     <p>Building this ToDo project helped me further my knowledge of Javascript. Getting things to appear, disappear and crossing off the items was a good challenge for me to figure out and to get to work properly.
                     </p>
 
-                    <p>I also learned a new CSS layout model that I have not used before called Flexbox. It made working with the layout very easy to do with the few elements that I worked with. Along with that, I learned about local storage and how to add and remove items form it.
+                    <p>I loved learning how to manipulate the DOM instead of creating a large list of HTML elements. It made things a lot simpler and the code more concise.
                     </p>
-                    <a href="https://github.com/JerryVW/todo-list" target="_blank" >See the code here</a>
-                    <a href="https://jerryvw.github.io/todo-list/" target="_blank" >See it live here</a>
+
+                    <p>I also learned a new CSS layout model that I have not used before called Flexbox. It made working with the layout very easy to do with the few elements that I worked with.
+                    </p> 
+                     <p>Along with that, I learned about local storage and how to add and remove items form it. This was a great thing to learn as I had to figure out how to traverse the DOM in reverse to get the right element to be deleted.
+                     </p>
+                    <a href="https://github.com/JerryVW/todo-list" target="_blank">See the code here</a>
+                    <a href="https://jerryvw.github.io/todo-list/" target="_blank">See it live here</a>
                 </div>
 
                 <div class="single-project">
                     <span>Rock, Paper, Scissors Game</span>
-                    <img class="example-pic" src="img/RPS_Screenshot.png" alt="Profile Picture">
+                    <a href="https://jerryvw.github.io/rps-game/" target="_blank"><img class="example-pic" src="img/RPS_Screenshot.png" alt="Profile Picture"></a>
                     <p>Building this rock, paper, scissors game brought about some new challenges with manipulating classes to change images and my first time using the switch statement. I also got a taste of trying to get scores to increment and learned a valuable lesson on parameters and arguments when it comes to functions.
                     </p>
 
-                    <p>I got more practice on manipulating the DOM. Once I got all the functionality working properly I just kept wanting to add new features and learning more ways to do things differently.
+                    <p>It was fun trying to get the logic to work correctly, then breaking it down to simplify the code and still manage to get it to work.</p>
+
+                    <p>I got more practice on manipulating the DOM. I really enjoy creating things out of nowhere and having them be a functioning part of the page.
                     </p>
-                    <a href="https://github.com/JerryVW/rps-game" target="_blank" >See the code here</a>
-                    <a href="https://jerryvw.github.io/rps-game/" target="_blank" >See it live here</a>
+                    
+                    <p>Once I got all the functionality working properly I just kept wanting to add new features and learning more ways to do things differently.
+                    </p>
+                    <a href="https://github.com/JerryVW/rps-game" target="_blank">See the code here</a>
+                    <a href="https://jerryvw.github.io/rps-game/" target="_blank">See it live here</a>
                 </div>
             </div>
             <div class="projects2">
                 <div class="single-project">
                     <span>Expense Tracker App</span>
-                    <img class="example-pic" src="img/expense-tracker.png" alt="Profile Picture">
-                    <p>Making this expense tracker was a lot of fun. It was a good challenge to get all the elements to display out in a table format. Knowing how to do this will help me when working with data from a backend server.
+                    <a href="https://jerryvw.github.io/expense-tracker/" target="_blank"><img class="example-pic" src="img/expense-tracker.png" alt="Profile Picture"></a>
+                    <p>Making this expense tracker was a lot of fun. It was a good challenge to get all the elements to display out in a table format. Also, knowing how to manipulate data like this will help me when working with data from a backend server.
+                    I liked creating each function that made a table element and then getting it all to line up in their own cells.
                     </p>
+                    
+                    <p>I used Felxbox on this to make it easy to get all of my HTML inputs to line up nicely for clean layout. I used a little more CSS on this project than on others, as I wanted to give it a nice look and feel for the user. </p>
 
-                    <p>I also used local storage on this project. That proved to be a bigger challenge than what I thought. But it was a great learning experience.
+                    <p>I also used local storage on this project. That proved to be a bigger challenge than what I thought. It was a little different than how I used it on the ToDo app because it was more elements than just one. But it was a great learning experience, nonetheless.
                     </p>
                     <a href="https://github.com/JerryVW/expense-tracker" target="_blank">See the code here</a>
                     <a href="https://jerryvw.github.io/expense-tracker/" target="_blank">See it live here</a>
@@ -70,14 +91,16 @@
 
                 <div class="single-project">
                     <span>Guitar Selection Website</span>
-                    <img class="example-pic" src="img/Guitar-site.png" alt="Profile Picture">
-                    <p>This website is something I came up with as a beginner project. I used the bootstrap framework for my HTML, which made the layout easya nd fully responsive. 
+                    <a href="" target="_blank"><img class="example-pic" src="img/Guitar-site.png" alt="Profile Picture"></a>
+                    <p>This website is something I came up with as a beginner project. I used the bootstrap framework for my HTML, which made the layout easy and fully responsive. I enjoyed making it one large page with multiple sections. Still giving it a feel of having different pages.
                     </p>
 
-                    <p>The Javascript was fun to create for this project. I had no experience getting lists to hide and appear when an attribute was selected, nor setting up a form to be emailed. I really enjoyed making this website.  
+                    <p>With this site I tried to work on my design skills a little more and pick colors and fonts the clean. I really love to make website that are visually appealing, as well as functional. I have also created mt first logo desing for this site, too.</p>
+
+                    <p>The Javascript was fun to create for this project. I had no experience switching between lists and getting them to hide and appear when an attribute was selected, nor setting up a form to be emailed. I really enjoyed making this website.  
                     </p>
-                    <a href="" target="_blank" >See the code here</a>
-                    <a href="" target="_blank" >See it live here</a>
+                    <a href="" target="_blank">See the code here</a>
+                    <a href="" target="_blank">See it live here</a>
                 </div>
             </div>
 
@@ -87,14 +110,10 @@
                     <a href="https://github.com/JerryVW" target="_blank"><img class="logo" src="img/github-icon.png" alt="Github Icon"></a>
                     <a href="https://www.linkedin.com/in/jerry-vander-weide-ba0586101/" target="_blank"><img class="logo" src="img/linkedin-icon.png" alt="LinkedIn Icon"></a>
                 </div>
-                
-                <div class="contact-section">
-                    <h2>Contact me via phone or email</h2>
-                    <h3>Phone#: (616)-308-2607</h3>
-                    <h3>Email: jerryvanderweide@yahoo.com</h3>
-                </div>
-                
             </div>
+
+            <p class="contact-info">Copyright &copy; 2020 by JVWeb Designs. All rights reserved.
+            </p>
         </section>
     </div>
     

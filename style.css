@@ -13,8 +13,12 @@ body {
     width: 1500px;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 100px;
     margin: auto;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo-image {
@@ -41,8 +45,9 @@ header {
 }
 
 .description {
+    width: 1000px;
     text-align: left;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 h2, p {
@@ -73,7 +78,6 @@ h2, p {
     width: 400px;
     height: 300px;
     border: 2px solid #ececec;
-    margin-left: 10%;
 }
 
 .single-project{
@@ -108,11 +112,11 @@ a {
 .contact-section {
     width: 500px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 10px 0;
 }
 
-.contact-section h2, h3 {
-    margin-bottom: 30px;
+.contact-section h4 {
+    margin-bottom: 5px;
 }
 
 .contact-section a {
@@ -125,12 +129,14 @@ a {
         width: 1100px;
         font-size: 16px;
         font-weight: 300;
-        margin-top: 100px;
-        margin: auto;
     }
 
     header{
         padding: 50px;
+    }
+
+    .description {
+        width: 600px;
     }
     .projects {
         padding: 40px;
@@ -146,13 +152,16 @@ a {
         flex-direction: column;
         height: 700px;
     }
+    .description {
+        width: 550px;
+    }
     .profile-pic {
         width: 200px;
         height: 200px;
         margin-bottom: 15px;;
     }
 
-    .projects1, .projects2, .contact-info {
+    .projects1, .projects2, .contact-info, .logo-header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -166,17 +175,23 @@ a {
     }
 
     header {
-        height: 950px;
+        height: 875px;
         padding: 15px;
+    }
+    .description {
+        width: 325px;
     }
 
     .single-project, .contact-section {
         width: 340px;
     }
 
+    .contact-info {
+        text-align: center;
+    }
+
     .example-pic {
         width: 225px;
         height: 175px;
-        margin-left: 15%;
     }
 }
